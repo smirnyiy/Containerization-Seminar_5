@@ -25,7 +25,7 @@ services:
     environment:
       MYSQL_USERNAME: root
       MYSQL_ROOT_PASSWORD: 12345
-      MYSQL_DATABASE: geek_db
+      MYSQL_DATABASE: djc_db
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     restart: always
